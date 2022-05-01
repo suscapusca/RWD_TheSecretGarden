@@ -76,3 +76,9 @@ body {
     min-height: 100px;
     width: 430px;
 }
+
+.mirror {
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+ }
