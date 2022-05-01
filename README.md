@@ -23,7 +23,7 @@
 <p>made by >> </p>  <h4><b> Walid 🦂</b></h4>
 <hr>
 
-<h5><b><i>When clicking on soun with clouds, thunder strikes</i></b></h5>
+<h5><b><i>When clicking on sun with clouds, thunder strikes ⚡⚡⚡</i></b></h5>
 <p>made by >> </p>  <h4><b> Bruno 🐜</b></h4>
 <hr>
 
