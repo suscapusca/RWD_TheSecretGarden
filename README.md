@@ -2,7 +2,7 @@
 <h1><u>CHANGE THIS FILE AND ADD WHAT ARE YOU WORKING ON </u></h1>
 
 <h3> NET 🏸 </h3>
- <p>made by >> </p>  <h4><b> Write your name here</b></h4>
+ <p>made by >> </p>  <h4><b> Bruno</b></h4>
 <hr>
 
  <h3> BUTTERFLY 🦋 </h3>
@@ -23,7 +23,7 @@
 <p>made by >> </p>  <h4><b> Walid 🦂</b></h4>
 <hr>
 
-<h5><b><i>Write the extra functionality here</i></b></h5>
+<h5><b><i>When clicking on soun with clouds, thunder strikes</i></b></h5>
 <p>made by >> </p>  <h4><b> Bruno 🐜</b></h4>
 <hr>
 
