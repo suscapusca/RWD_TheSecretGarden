@@ -1,0 +1,78 @@
+html,
+body {
+    height: 100%;
+}
+
+
+#butterfly {
+    height: 200px;
+    width: auto;
+    position: absolute;
+}
+
+#wateringcan {
+    width: 200px;
+    position: fixed;
+    bottom: 20%;
+    left: 40%;
+}
+
+
+.waterdrop {
+    width: 20px;
+}
+
+#net {
+    height: 600px;
+    width: auto;
+    position: absolute;
+
+}
+
+.apple {
+    height: 50px;
+    width: auto;
+    position: absolute;
+}
+
+#tree {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+
+}
+
+.basket {
+    width: 200px;
+    position: fixed;
+    bottom: 20px;
+    left: 20%;
+
+}
+
+
+body {
+    margin: 0px;
+    background-image: url("../images/grass.png");
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    overflow: hidden;
+}
+
+.draggable
+{
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+}
+.dropped
+{
+    position: static !important;
+}
+#dvSource, #dvDest
+{
+    border: 5px solid #ccc;
+    padding: 5px;
+    min-height: 100px;
+    width: 430px;
+}
