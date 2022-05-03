@@ -6,11 +6,11 @@
 <hr>
 
  <h3> BUTTERFLY 🦋 </h3>
-        <p>made by >> </p>  <h4><b> Write your name here</b></h4>
+        <p>made by >> </p>  <h4><b> Claudio</b></h4>
 <hr>
 
 <h3>APPLES 🍎 AND BASKET 🧺  </h3>
-<p>made by >> </p>  <h4><b> Write your name here</b></h4>
+<p>made by >> </p>  <h4><b> Jack</b></h4>
 <hr>
 
 <h3>WATERING CAN 🚿 AND WATER DROP 💦</h3>
