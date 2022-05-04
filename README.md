@@ -35,7 +35,7 @@
 <p>made by >> </p>  <h4><b> Jack 🐛</b></h4>
 <hr>
 
-<h5><b><i>Write the extra functionality here</i></b></h5>
+<h5><b><i>Duck is running left and right with arrow keys</i></b></h5>
 <p>made by >> </p>  <h4><b> G 🐞</b></h4>
 <hr>
 
