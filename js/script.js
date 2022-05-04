@@ -42,3 +42,36 @@ $("#cloud").click(function () {
     }, 500);
 })
 
+//Additional function by Guilherme
+//Duck is running to sides when pressing arrow keys 
+
+$(document).keydown(function(move){
+    switch (move.which){
+    case 37:    // keys left and right
+        $("#duck").finish().animate({
+            left: "-=10"
+        });        
+
+        break;
+
+    case 39:    // key right
+        $("#duck").finish().animate({
+            left: "+=10"
+        });    
+
+        break;
+    }
+});
+
+function duckBounds(e) {
+    let duck = $("#duck");
+
+    if(duck.x < 0) 
+    {
+        duck.x = 0;
+    }
+    else if (duck.x > e.pageX || duck.x < e.pageX ) {
+        duck.x = e.pageX - duck.width;
+    }
+}
+
