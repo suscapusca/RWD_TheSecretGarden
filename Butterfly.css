@@ -1,0 +1,10 @@
+#birdRight{
+    height: 30px;
+    width: 60px;
+    position: fixed;
+}
+#butterfly {
+    height: 200px;
+    width: 300px;
+    position: fixed;
+}
