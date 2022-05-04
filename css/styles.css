@@ -82,3 +82,10 @@ body {
     -webkit-transform: scale(-1, 1);
     transform: scale(-1, 1);
  }
+
+#duck {
+    position: absolute;
+    width: 200px;
+    right: 25%;
+    bottom: 1%;
+}
