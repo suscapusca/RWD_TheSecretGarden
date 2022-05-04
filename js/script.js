@@ -75,3 +75,61 @@ function duckBounds(e) {
     }
 }
 
+
+//jack code start
+$(document).ready(function () {
+  //apples going to tree
+  apples($("#apple1"));
+  apples($("#apple2"));
+  apples($("#apple3"));
+});
+
+//picking apples to basket
+$("#apple1").on("click", function(){
+  $("#apple1").addClass("shake");
+  moveApple( $("#apple1"));
+});
+$("#apple2").on("click", function(){
+  $("#apple2").addClass("shake");
+  moveApple( $("#apple2"));
+});
+$("#apple3").on("click", function()
+{
+  $("#apple3").addClass("shake");
+  moveApple( $("#apple3"));
+});
+
+//move apples to basket
+function moveApple(apple){
+  setTimeout(function(){
+    var basketTop=($('.basket').first().position().top);
+    var basketLeft=($('.basket').first().position().left);
+    var basketWidth=$('.basket').first().width()-100;
+    apple.animate({
+      'top':basketTop+170+'px','left':basketLeft+Math.round(Math.random() * basketWidth)+30+'px'
+    });
+  },2000)
+}
+
+//apples going to tree 
+function apples(target) {
+ //console.log($('#tree').position().top);
+  var treeTop=($('#tree').position().top);
+  var treeLeft=($('#tree').position().left);
+  var treeWidth=$('#tree').width()-100;
+  var treeHeight=$('#tree').height()/3;
+  var posx = Math.round(Math.random() * treeWidth) + treeLeft+50;
+  var posy = Math.round(Math.random() * treeHeight) + treeTop;
+  target.css({
+    "top":  posy+100+'px', "left": posx+'px',zindex:10,
+  });
+}
+//jacks code end
+
+
+
+
+
+
+
+
